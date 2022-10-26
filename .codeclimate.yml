@@ -13,3 +13,9 @@ checks:
     enabled: true
     config:
       threshold: 10
+exclude_patterns:
+  - "test_**"
+  - "test_*"
+  - "**/test/"
+  - "**/tests/"
+  - "Tests/"
