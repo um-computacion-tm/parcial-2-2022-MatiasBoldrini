@@ -14,6 +14,8 @@ checks:
     config:
       threshold: 10
 exclude_patterns:
+  - "test"
+  - "test.py"
   - "test_**"
   - "test_*"
   - "**/test/"
